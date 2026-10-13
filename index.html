@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Illustration, comics, graphic design and UI/UX portfolio.">
+<title>Kiba Velcrø — Artist & Visual Designer</title>
+<style>
+:root{--bg:#101010;--panel:#181818;--ink:#f4f0e8;--muted:#aaa69f;--line:#33312e;--accent:#d8ff3e;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}a:hover{color:var(--accent)}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(16,16,16,.92);backdrop-filter:blur(14px);z-index:5}
+.nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-weight:900;letter-spacing:-.05em}.logo span{color:var(--accent)}nav{display:flex;gap:24px;font-size:.88rem;color:var(--muted)}
+.hero{padding:100px 0 78px;display:grid;grid-template-columns:1.25fr .75fr;gap:50px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;color:var(--accent);font-weight:800}.hero h1{font-size:clamp(3rem,7vw,6.6rem);letter-spacing:-.075em;line-height:.94;margin:20px 0 26px;max-width:800px}.hero h1 em{font-style:normal;color:var(--accent)}.hero p{max-width:590px;color:var(--muted);font-size:1.05rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--line);padding:12px 17px;border-radius:3px;font-size:.9rem;font-weight:700}.btn.primary{background:var(--accent);color:#111;border-color:var(--accent)}.hero-art{min-height:360px;border:1px solid var(--line);background:radial-gradient(ellipse at 60% 35%,#3b4030 0,transparent 48%),linear-gradient(145deg,#242424,#111);display:flex;align-items:center;justify-content:center;padding:22px;position:relative;overflow:hidden}.hero-art:before{content:"";position:absolute;width:260px;height:340px;border:1px solid #777a64;border-radius:48% 48% 12% 12%;transform:rotate(13deg)}.hero-art:after{content:"YOUR ART HERE";position:absolute;bottom:18px;right:18px;font-size:.68rem;letter-spacing:.15em;color:#c3c5ad}.hero-art .symbol{font-size:clamp(5rem,12vw,10rem);color:var(--accent);font-weight:900;z-index:1;letter-spacing:-.1em}
+section{padding:64px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}.section-head h2{font-size:clamp(2rem,4vw,3.5rem);letter-spacing:-.06em;line-height:1;margin:8px 0}.section-head p{max-width:380px;color:var(--muted);margin:0;font-size:.9rem}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 22px}.filter{cursor:pointer;background:transparent;color:var(--muted);border:1px solid var(--line);padding:9px 13px;font:inherit;font-size:.8rem}.filter.active,.filter:hover{background:var(--accent);color:#111;border-color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.project{background:var(--panel);border:1px solid var(--line);min-width:0;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-4px);border-color:#777}.thumb{aspect-ratio:4/3;background:#242424;display:flex;align-items:center;justify-content:center;overflow:hidden;color:#777}.thumb img{width:100%;height:100%;object-fit:cover;display:block}.placeholder{padding:20px;text-align:center;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}.project-info{padding:16px}.project-info .type{color:var(--accent);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.project-info h3{margin:7px 0 4px;font-size:1.12rem}.project-info p{margin:0;color:var(--muted);font-size:.84rem}
+.about-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:50px}.about-grid h2{font-size:clamp(2rem,4vw,3.7rem);letter-spacing:-.06em;line-height:1;margin:10px 0}.about-copy{color:var(--muted);max-width:700px}.skills{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.skills span{border:1px solid var(--line);padding:8px 11px;font-size:.8rem;color:var(--ink)}
+.contact{background:var(--accent);color:#111;padding:45px;border-radius:4px;display:flex;justify-content:space-between;align-items:center;gap:25px}.contact h2{font-size:clamp(2rem,4vw,3.8rem);letter-spacing:-.06em;line-height:1;margin:0 0 10px}.contact p{margin:0;max-width:520px}.contact .btn{border-color:#111;white-space:nowrap}
+footer{padding:25px 0;color:var(--muted);font-size:.8rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding:65px 0 50px;gap:28px}.hero-art{min-height:260px}.grid{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr;gap:20px}.contact{padding:28px;display:block}.contact .btn{margin-top:20px}}
+@media(max-width:520px){.wrap{width:min(100% - 28px,var(--max))}.nav{align-items:flex-start;padding:18px 0;flex-direction:column;gap:12px}nav{gap:15px;flex-wrap:wrap}.grid{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:12px}.hero h1{font-size:3.5rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#top">KV<span>✳</span></a>
+<nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main id="top">
+<div class="wrap hero">
+<div>
+<div class="eyebrow">Artist · Illustrator · Visual Designer</div>
+<h1>Ideas with<br><em>character.</em></h1>
+<p>I create illustrations, comic art, visual identities and digital experiences with a love for bold silhouettes, memorable worlds and thoughtful storytelling.</p>
+<div class="actions"><a class="btn primary" href="#work">Explore selected work ↘</a><a class="btn" href="#contact">Get in touch</a></div>
+</div>
+<div class="hero-art" aria-label="Decorative artwork placeholder"><div class="symbol">✳</div></div>
+</div>
+<section id="work"><div class="wrap">
+<div class="section-head"><div><div class="eyebrow">Selected projects</div><h2>Things I've made.</h2></div><p>A selection of creative work across illustration, comics, branding and digital product design.</p></div>
+<div class="filters" role="group" aria-label="Filter projects">
+<button class="filter active" data-filter="all">All work</button><button class="filter" data-filter="illustration">Illustration</button><button class="filter" data-filter="comics">Comics</button><button class="filter" data-filter="design">Graphic design</button><button class="filter" data-filter="uiux">UI/UX</button>
+</div>
+<div class="grid">
+<article class="project" data-category="illustration"><div class="thumb"><div class="placeholder">Replace with artwork<br>images/project-01.jpg</div></div><div class="project-info"><div class="type">Illustration</div><h3>Character / Concept Art</h3><p>Original character design exploring silhouette, shape and personality.</p></div></article>
+<article class="project" data-category="comics"><div class="thumb"><div class="placeholder">Replace with comic page<br>images/project-02.jpg</div></div><div class="project-info"><div class="type">Comics</div><h3>Sequential Storytelling</h3><p>Selected comic pages, panel flow and visual narrative.</p></div></article>
+<article class="project" data-category="illustration"><div class="thumb"><div class="placeholder">Replace with illustration<br>images/project-03.jpg</div></div><div class="project-info"><div class="type">Illustration</div><h3>Worlds & Creatures</h3><p>Illustration work inspired by folklore, fantasy and speculative worlds.</p></div></article>
+<article class="project" data-category="design"><div class="thumb"><div class="placeholder">Replace with branding mockup<br>images/project-04.jpg</div></div><div class="project-info"><div class="type">Graphic design</div><h3>Visual Identity System</h3><p>A considered identity, layout system and promotional assets.</p></div></article>
+<article class="project" data-category="uiux"><div class="thumb"><div class="placeholder">Replace with app screens<br>images/project-05.jpg</div></div><div class="project-info"><div class="type">UI/UX</div><h3>Digital Product Concept</h3><p>Interface exploration focused on clarity, hierarchy and usability.</p></div></article>
+<article class="project" data-category="comics"><div class="thumb"><div class="placeholder">Replace with storyboard<br>images/project-06.jpg</div></div><div class="project-info"><div class="type">Storyboarding</div><h3>Scene Development</h3><p>Camera, pacing and composition studies for a visual sequence.</p></div></article>
+</div>
+</div></section>
+<section id="about"><div class="wrap about-grid">
+<div><div class="eyebrow">A little about me</div><h2>Art first.<br>Story always.</h2></div>
+<div class="about-copy"><p>I'm an illustrator and visual storyteller working across character design, comics and design. I enjoy turning rough ideas into clear, expressive visuals — from the first thumbnail to polished final artwork.</p><p>This portfolio is a selection of personal and commissioned projects. Replace this paragraph with a short bio in your own voice, and mention the kinds of collaborations or roles you're looking for.</p><div class="skills"><span>Digital illustration</span><span>Character design</span><span>Comic art</span><span>Storyboarding</span><span>Brand design</span><span>Figma / UI</span></div></div>
+</div></section>
+<section id="contact"><div class="wrap"><div class="contact"><div><h2>Have a project in mind?</h2><p>For commissions, collaborations, illustration work or design opportunities, send me a message.</p></div><a class="btn" href="mailto:YOUR_EMAIL@example.com">Email me ↗</a></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> Kiba Velcrø</span><span>Illustration · Comics · Design</span><span><a href="https://github.com/">GitHub</a> · <a href="#top">Back to top ↑</a></span></div></footer>
+<script>
+document.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{
+ document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));button.classList.add('active');
+ const category=button.dataset.filter;
+ document.querySelectorAll('.project').forEach(card=>card.hidden=category!=='all'&&card.dataset.category!==category);
+}));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body></html>
